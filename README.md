@@ -15,8 +15,8 @@ The model is trained with batches size 16 and 20 epochs. The training stops at e
 ## 4. Results
 The model is evaluated with test data which is shown in figure below.
 Some predictions are also made wiht the model using some of the test data. The actual output masks and predicted masks are shown in the figures below.
-![My Image](img/Figure 2022-04-18 230817.jpg)
+![My Image](img/Figure 2022-04-18 230817.png)
 
-![My Image](img/Figure 2022-04-18 230732.jpg)
+![My Image](img/Figure 2022-04-18 230732.png)
 
 Overall the model are able to segmenting the nuclei with excelent accuracy. 
