@@ -11,7 +11,7 @@ The dataset folder contain train and test folder separately. Each folder are fur
 ### 3.2 Model Pipeline
 The model architecture used for this project is U-Net. For further details on the models architecture can be refer on the TensorFlow website. In general, the model consist of a downward stack which serves as a feature extractor. The upward stack produces the pixel-wise output. The model structure is shown in the figure below. 
 
-The model is trained with batches size 16 and 100 epochs. Early stoping is also applied on the model training. The training stops at epochs 22 with training accuracy of 97% and validation accuracy 96%. The model training graphs are shown in figures below. 
+The model is trained with batches size 16 and 20 epochs. The training stops at epochs 20 with accuracy of 97% and loss 0.0625.
 ## 4. Results
 The model is evaluated with test data which is shown in figure below.
 Some predictions are also made wiht the model using some of the test data. The actual output masks and predicted masks are shown in the figures below.
