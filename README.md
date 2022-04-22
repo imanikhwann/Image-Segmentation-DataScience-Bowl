@@ -11,13 +11,15 @@ The dataset folder contain train and test folder separately. Each folder are fur
 ### 3.2 Model Pipeline
 The model architecture used for this project is U-Net. For further details on the models architecture can be refer on the TensorFlow website. In general, the model consist of a downward stack which serves as a feature extractor. The upward stack produces the pixel-wise output. The model structure is shown in the figure below. 
 ![My Image](img/model.png)
+
 The model is trained with batches size 16 and 20 epochs. The training stops at epochs 20 with accuracy of 97% and loss 0.0625.
 ## 4. Results
 The model is evaluated with test data which is shown in figure below.
 Some predictions are also made wiht the model using some of the test data. The actual output masks and predicted masks are shown in the figures below.
 
-![My Image1](img/Figure 2022-04-18 230817.png)
 
-![My Image](img/Figure 2022-04-18 230732.png)
+![Figure 2022-04-18 230817](https://user-images.githubusercontent.com/92588131/164604466-1ebaa07a-b0fa-49c3-a761-04dcc9b6064d.png)
+
+![Figure 2022-04-18 230732](https://user-images.githubusercontent.com/92588131/164604490-42cc9786-1303-42a6-9051-a994328cc41e.png)
 
 Overall the model are able to segmenting the nuclei with excelent accuracy. 
