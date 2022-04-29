@@ -18,8 +18,8 @@ The model is evaluated with test data which is shown in figure below.
 Some predictions are also made wiht the model using some of the test data. The actual output masks and predicted masks are shown in the figures below.
 
 
-![Figure 2022-04-18 230817](https://user-images.githubusercontent.com/92588131/164604466-1ebaa07a-b0fa-49c3-a761-04dcc9b6064d.png)
+![Figure 2022-04-29 082519](https://user-images.githubusercontent.com/92588131/165868522-47e99550-632e-42cc-878f-a6cf51ee15e5.png)
+![Figure 2022-04-29 082542](https://user-images.githubusercontent.com/92588131/165868530-2a386689-9aff-43ae-9ac2-0b6704504c01.png)
 
-![Figure 2022-04-18 230732](https://user-images.githubusercontent.com/92588131/164604490-42cc9786-1303-42a6-9051-a994328cc41e.png)
 
 Overall the model are able to segmenting the nuclei with excelent accuracy. 
