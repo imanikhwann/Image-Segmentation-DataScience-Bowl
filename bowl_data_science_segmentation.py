@@ -188,7 +188,7 @@ for images, masks in train.take(2):
 from IPython.display import clear_output
 
 def create_mask(pred_mask):
-    pred_mask = tf.argmax(pred_mask, axis=1)
+    pred_mask = tf.argmax(pred_mask, axis=-1)
     pred_mask = pred_mask[..., tf.newaxis]
     return pred_mask
 
@@ -219,38 +219,4 @@ history = model.fit(train, epochs = EPOCH, steps_per_epoch = STEP_PER_EPOCH, val
 #%%
 
 show_predictions(test, 3)
-#%%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+#%% 
